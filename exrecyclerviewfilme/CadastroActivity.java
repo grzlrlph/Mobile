@@ -23,9 +23,6 @@ public class CadastroActivity extends AppCompatActivity {
      private List<Filme> listaFilmes = new ArrayList<>();
      private FilmeAdapter filmeAdapter;
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,8 +38,6 @@ public class CadastroActivity extends AppCompatActivity {
         filmeAdapter = new FilmeAdapter(listaFilmes);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(filmeAdapter);
-
-
 
         btnSalvar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,10 +62,6 @@ public class CadastroActivity extends AppCompatActivity {
             }
         });
 
-
     }
-
-
-
 
 }
