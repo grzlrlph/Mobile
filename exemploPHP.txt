@@ -1,0 +1,19 @@
+EXEMPLO:
+
+php
+	header('Content-Type: application/json');
+	header('Character-Enconding: utf-8');
+	
+	$pdo = new PDO('mysql:host=127.0.0.1;dbname=BDEXEMPLO;port=3310;charset=utf8','root','root');
+	
+	$sql = 'SELECT codigo, nome, cargo, salario FROM Funcionario';
+	$statement = $pdo->prepare($sql);
+	$statement->execute();
+	
+	$funcionarios = array();
+	while ($result = $statement->fetch(PDO::FETCH_ASSOC)){
+		$funcionarios['funcionarios'][] = (object) $result;
+	}
+	
+	$json = json_encode($funcionarios);
+	echo $json;

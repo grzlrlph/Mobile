@@ -1,0 +1,74 @@
+{
+  "funcionarios": [
+    {
+      "nome": "João Silva",
+      "idade": 30,
+      "data_nascimento": "1993-05-15",
+      "cargo": "Analista de Vendas",
+      "salario": 5000.00
+    },
+    {
+      "nome": "Maria Santos",
+      "idade": 28,
+      "data_nascimento": "1995-03-22",
+      "cargo": "Engenheiro de Software",
+      "salario": 7500.00
+    },
+    {
+      "nome": "Carlos Oliveira",
+      "idade": 35,
+      "data_nascimento": "1988-12-10",
+      "cargo": "Gerente de Projetos",
+      "salario": 8500.00
+    },
+    {
+      "nome": "Ana Costa",
+      "idade": 32,
+      "data_nascimento": "1991-09-05",
+      "cargo": "Designer Gráfico",
+      "salario": 4800.00
+    },
+    {
+      "nome": "Pedro Almeida",
+      "idade": 28,
+      "data_nascimento": "1995-07-18",
+      "cargo": "Analista Financeiro",
+      "salario": 6000.00
+    },
+    {
+      "nome": "Lúcia Pereira",
+      "idade": 26,
+      "data_nascimento": "1997-02-28",
+      "cargo": "Desenvolvedor Front-End",
+      "salario": 6200.00
+    },
+    {
+      "nome": "Mário Santos",
+      "idade": 40,
+      "data_nascimento": "1983-11-12",
+      "cargo": "Diretor de Marketing",
+      "salario": 10000.00
+    },
+    {
+      "nome": "Clara Mendes",
+      "idade": 33,
+      "data_nascimento": "1990-04-08",
+      "cargo": "Analista de Recursos Humanos",
+      "salario": 5500.00
+    },
+    {
+      "nome": "Ricardo Gomes",
+      "idade": 37,
+      "data_nascimento": "1986-06-25",
+      "cargo": "Engenheiro de Produção",
+      "salario": 7800.00
+    },
+    {
+      "nome": "Sofia Fernandes",
+      "idade": 29,
+      "data_nascimento": "1994-08-14",
+      "cargo": "Analista de Marketing",
+      "salario": 5200.00
+    }
+  ]
+}

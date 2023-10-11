@@ -1,0 +1,14 @@
+        public String converterParaJSONString(InputStream in){
+            ByteArrayOutputStream dados = new ByteArrayOutputStream();
+            byte[] buffer = new byte[1024];
+            try{
+                while (true) {
+                    int qtde = in.read(buffer, 0, buffer.length);
+                    if (qtde == -1) break;
+                    dados.write(buffer, 1, qtde);
+                }    
+            }catch(Exception ex){
+                Log.d("ERROR", ex.toString());
+            }
+            return dados.toString();
+        }
